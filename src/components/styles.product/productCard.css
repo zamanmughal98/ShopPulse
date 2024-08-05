@@ -1,0 +1,31 @@
+.productItemCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 20px;
+  padding: 8px;
+  width: 300px;
+  height: 380px;
+  border: solid 3px rgba(43, 35, 35, 0.603);
+
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3), 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+.productItemCard:hover {
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.5), 0 12px 24px rgba(0, 0, 0, 0.3);
+  filter: brightness(1.1) contrast(1.1);
+  transform: scale(1.05);
+}
+.productTitle {
+  text-align: center;
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0.438rem;
+}

@@ -1,0 +1,7 @@
+.productListingContainer {
+  display: flex;
+  margin: 0 auto;
+  background-color: rgb(202, 202, 215);
+  flex-wrap: wrap;
+  justify-content: center;
+}
